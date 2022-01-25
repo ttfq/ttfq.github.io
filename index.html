@@ -1,10 +1,21 @@
 <html>
   <head>
+    <style type="text/css">
+@font-face {
+    font-family: "My Custom Font";
+    src: url(https:/ttfq.github.io/FredokaOne-Regular.ttf) format("truetype");
+}
+p.customfont { 
+    font-family: "My Custom Font", Verdana, Tahoma;
+}
+</style>
+<p>Hello world!</p>
+
     <title>ttfq test site</title>
   </head>
   <body>
-    <h1>Greetings, you people of the internet</h1>
-    <p> If you wanna play Super Auto Pets go here:</p><a href="./sap">SAP</a>
-    <p> If you wanna play Celeste Classic go here:</p><a href="./celeste">Celeste Classic</a>
+    <h1 class="customfont">Greetings, you people of the internet</h1>
+    <p class="customfont"> If you wanna play Super Auto Pets go here:</p><a href="./sap">SAP</a>
+    <p class="customfont"> If you wanna play Celeste Classic go here:</p><a href="./celeste">Celeste Classic</a>
   </body>
 </html>
