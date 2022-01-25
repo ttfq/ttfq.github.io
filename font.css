@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'F1'; /*a name to be used later*/
+    src: url(ttfq.github.io/FredokaOne-Regular.ttf); /*URL to font*/
+}
+body
+{
+background: #000000; 
+}
+body {
+    color: white;
+  }
+  
