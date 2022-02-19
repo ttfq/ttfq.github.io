@@ -1,7 +1,11 @@
-<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 <!DOCTYPE HTML>
-
-        <script src='https://e9x.github.io/ruffle-example/ruffle.js'></script>
+<html>
+    <head>
+        <meta charset='utf8'>
+    </head>
+    <body>
+        <div id='ruffle'></div>
+        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
         <script>
 var swfobject = {};
 
@@ -16,7 +20,7 @@ swfobject.embedSWF = function(url, cont, width, height){
     player.load({ url: url });
 }
 
-swfobject.embedSWF('./papaspizzeria_v2.swf', 'ruffle', 500, 500);
+swfobject.embedSWF('https://ttfq.github.io/amongsus/papas/pizza/papaspizzeria_v2.swf', 'ruffle', 500, 500);
         </script>
     </body>
 </html>
