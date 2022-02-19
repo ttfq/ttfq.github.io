@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'F1'; /*a name to be used later*/
+    src: url(FredokaOne-Regular.ttf); /*URL to font*/
+}
+.classname {
+    font-family: 'F1';
+}
+body
+{
+background: black; 
+}
+body {
+    color: white;
+    font-family: 'F1';
+    font-size: 24;
+  }
